@@ -1,8 +1,18 @@
+import deepEarth from "./assets/desktop/image-deep-earth.jpg";
+import nightArcade from "./assets/desktop/image-night-arcade.jpg";
+import soccerTeam from "./assets/desktop/image-soccer-team.jpg";
+import grid from "./assets/desktop/image-grid.jpg";
+import fromAbove from "./assets/desktop/image-from-above.jpg";
+import pocketBorealis from "./assets/desktop/image-pocket-borealis.jpg";
+import curiosity from "./assets/desktop/image-curiosity.jpg";
+import fisheye from "./assets/desktop/image-fisheye.jpg";
+
+
 export default [
   {
     id: 1,
     img: {
-      src: "./src/assets/desktop/image-deep-earth.jpg",
+      src: deepEarth,
       alt: "Deep Earth",
     },
     title: "Deep Earth",
@@ -11,7 +21,7 @@ export default [
   {
     id: 2,
     img: {
-      src: "./src/assets/desktop/image-night-arcade.jpg",
+      src: nightArcade,
       alt: "Night Arcade",
     },
     title: "Night Arcade",
@@ -20,7 +30,7 @@ export default [
   {
     id: 3,
     img: {
-      src: "./src/assets/desktop/image-soccer-team.jpg",
+      src: soccerTeam,
       alt: "Soccer Team VR",
     },
     title: "Soccer Team VR",
@@ -29,7 +39,7 @@ export default [
   {
     id: 4,
     img: {
-      src: "./src/assets/desktop/image-grid.jpg",
+      src: grid,
       alt: "The Grid",
     },
     title: "The Grid",
@@ -38,7 +48,7 @@ export default [
   {
     id: 5,
     img: {
-      src: "./src/assets/desktop/image-from-above.jpg",
+      src: fromAbove,
       alt: "From Up Above VR",
     },
     title: "From Up Above VR",
@@ -47,7 +57,7 @@ export default [
   {
     id: 6,
     img: {
-      src: "./src/assets/desktop/image-pocket-borealis.jpg",
+      src: pocketBorealis,
       alt: "Pocket Borealis",
     },
     title: "Pocket Borealis",
@@ -56,7 +66,7 @@ export default [
   {
     id: 7,
     img: {
-      src: "./src/assets/desktop/image-curiosity.jpg",
+      src: curiosity,
       alt: "The Curiosity",
     },
     title: "The Curiosity",
@@ -65,7 +75,7 @@ export default [
   {
     id: 8,
     img: {
-      src: "./src/assets/desktop/image-fisheye.jpg",
+      src: fisheye,
       alt: "Make It Fisheye",
     },
     title: "Make It Fisheye",
